@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  h1 {
+<<<<<<< HEAD
+    color: rgb(100, 100, 100);
+    margin-left: 20px;
+  }
+@font-face { font-family: Squared; src: url('https://www.dafont.com/squared2.font'); } 
+@font-face { font-family: Squared; font-weight: bold; src: url('Delicious-Bold.otf');}
+=======
+    color: rgb(55, 55, 55);
+    margin-right: 20px;
+  }
+
+  @font-face {
+    font-family: 'agelastregular';
+    src: url('agelast-webfont.woff2') format('woff2'),
+         url('agelast-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'delightregular';
+    src: url('delight-webfont.woff2') format('woff2'),
+         url('delight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+  background-image: url("cyberback2.jpg");
+  background-repeat: no-repeat;
+}
+>>>>>>> 6cfd11b4e6edb6c0f2324c1f4d837f46a5274c0f
