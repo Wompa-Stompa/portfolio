@@ -3,7 +3,7 @@ body {
   }
   
   h1 {
-    color: rgb(55, 55, 55);
+    color: rgb(102, 99, 99);
     margin-right: 20px;
   }
 
@@ -33,17 +33,17 @@ body {
   background-size: 100%;
 }
 input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  resize: vertical
 }
 
-/* Style the submit button */
+
 input[type=submit] {
   background-color: #6a6b6b;
   color: white;
@@ -71,3 +71,4 @@ input[type=submit]:hover {
    background-repeat: no-repeat;
    background-size: cover;
    }
+ 
