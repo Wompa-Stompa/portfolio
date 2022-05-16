@@ -74,12 +74,7 @@ input[type=submit]:hover {
    }
 
    <style>
-    .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    font-family: arial;
+
   }
     .img{
        max-width: 100%;
@@ -105,7 +100,7 @@ input[type=submit]:hover {
 
 #link {
   padding-left: 20px;
-  padding-top:60px;
+  padding-top: 100px;
   margin: 7px;
 }
 
@@ -125,3 +120,16 @@ form {
   margin: 0 auto; 
   width:250px;
   }
+
+
+  .contact {
+    margin-bottom: 10px;
+    width: 160px;
+    height:160px;
+    display:block;
+    background:transparent url('assets/images/runbud.jpg') ; center top no-repeat;
+   }
+   
+   .contact:hover {
+      background-image: url('assets/images/runbudhover.jpg');
+   }
