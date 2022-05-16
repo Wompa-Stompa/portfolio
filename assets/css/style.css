@@ -1,9 +1,9 @@
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.659);
   }
   
   h1 {
-    color: rgb(102, 99, 99);
+    color: rgb(156, 153, 153);
     margin-right: 20px;
   }
 
@@ -30,7 +30,8 @@ body {
 body {
   background-image: url("cyberback2.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  background-attachment: fixed;
 }
 input[type=text], select, textarea {
   width: 100%;
@@ -71,4 +72,56 @@ input[type=submit]:hover {
    background-repeat: no-repeat;
    background-size: cover;
    }
- 
+
+   <style>
+    .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+    .img{
+       max-width: 100%;
+       max-height: 100%;
+       display: block; 
+   }
+   .box{
+      padding-top: 20px;
+       width: 700px; 
+       height: 300px;       
+       border: 5px solid black;
+   }    
+   .box.large{
+     width: 800px;
+     height: 400px;
+   }
+   .box.small{
+       height: 100px;
+   }
+   </style>
+
+
+
+#link {
+  padding-left: 20px;
+  padding-top:60px;
+  margin: 7px;
+}
+
+#image {
+  padding: 0;
+  margin: 0;
+  align-content: center;
+}
+
+#wrapper {
+  margin-left:auto;
+  margin-right:auto;
+  width:960px;
+}
+
+form { 
+  margin: 0 auto; 
+  width:250px;
+  }
