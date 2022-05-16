@@ -128,7 +128,6 @@ form {
     width: 600px;
     height:289px;
     display:block;
-<<<<<<< HEAD
     background-image: url('../images/runbud.jpg')
    }
    
@@ -147,11 +146,4 @@ form {
    
    .notyet:hover {
       background-image: url('../images/eclpshover.jpeg')
-=======
-    background:transparent url('assets/images/runbud.jpg') ; no-repeat;
-   }
-   
-   .runbud:hover {
-      background-image: url('assets/images/runbudhover.jpg');
->>>>>>> 6dd405dca2177b0c04b334aeaad69504c235f593
    }
