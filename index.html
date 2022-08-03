@@ -2,16 +2,18 @@
 <html lang="en">
   <div id="wrapper">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <head>
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+  <link rel="stylesheet" type="text/css" href='assets/css/style.css'>
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
  
- <style>@font-face {
+  <head>
+    
+ <style>
+ @font-face {
   font-family: agelastregular;
   src: url(assets/fonts/agelast-webfont.woff);
 }
 </style>
-<link rel="stylesheet" type="text/css" href='assets/css/style.css'>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -19,28 +21,39 @@
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
  
   </head>
-
-  <a id=link href="about.html"><img src="assets/images/unvisit.jpg" 
-    onmouseover="this.src='assets/images/visitedabout.jpg'"
-    onmouseout="this.src='assets/images/unvisitabout.jpg'" /></A>
+<div class="menuLinks" id="myHeader" style="align-content:center;">
+       <a id=link href="about.html"><img src="assets/images/unvisitabout.jpg" 
+        onmouseover="this.src='assets/images/visitedabout.jpg'"
+        onmouseout="this.src='assets/images/unvisitabout.jpg'" /></a>
+    
+      <a id=link href="mywork.html"><img src="assets/images/unvisitmywork.jpg" 
+          onmouseover="this.src='assets/images/visitedmywork.jpg'"
+          onmouseout="this.src='assets/images/unvisitmywork.jpg'" /></a>  
 
   <a id=link href="contact.html"><img src="assets/images/unvisitcontact.jpg" 
       onmouseover="this.src='assets/images/visitedcontact.jpg'"
-      onmouseout="this.src='assets/images/unvisitcontact.jpg'" /></A>
+      onmouseout="this.src='assets/images/unvisitcontact.jpg'" /></a>
+</div>
 
-  <a id=link href="mywork.html"><img src="assets/images/unvisitmywork.jpg" 
-        onmouseover="this.src='assets/images/visitedmywork.jpg'"
-        onmouseout="this.src='assets/images/unvisitmywork.jpg'" /></A>   
 
       
     <main>
-        <h3 style="padding-left: 20px; font-family: agelastregular; color: #aeaeae; margin-top: auto;">Professional Portfolio</h3>  
+        <h3 style="text-align: center; padding-left: 20px; font-family: agelastregular; color: #aeaeae; margin-top: auto;">Professional Portfolio</h3>  
     </main>
 
     <div>
-    <p style="padding-top: 150px; padding-left: 80px; font-size: larger; font-family: agelastregular; font-weight: 900;">Welcome to my portfolio. Please visit the links to find out more.</p>
+    <p style="padding-top: 150px; padding-left: 80px; font-size: larger; font-family: agelastregular; font-weight: 900;">Welcome to my portfolio. Please visit the links at the top of the page to find out more.</p>
     </div>
 	<script src="index.js"></script>
 </div>
+
+<footer>
+  <div style="text-align: center; background-color:black ;">
+   <p style="color:rgb(201, 199, 196) ;">© Chris Broussard 2022 </p>
+   </div>
+</footer>
+
+<script src="./assets/scripts.js"></script>
+
   </body>
 </html>
